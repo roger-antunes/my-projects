@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ## Instalação
 
-Para rodar o programa no Windows 10 ou 11, você pode utilizar a versão compilada (.exe) fornecida na pasta `compilado-win34`. 
+Para rodar o programa no Windows 10 ou 11, você pode utilizar a versão compilada (.exe) fornecida na pasta `win64`. 
 
 Se você preferir compilar o programa a partir do código-fonte, você pode fazer isso utilizando o arquivo `main.py` fornecido na pasta `sources`. Lembre-se que a compilação adaptada para Windows está em `app-win`, dentro de `sources`.
 
