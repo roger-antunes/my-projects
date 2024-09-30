@@ -1,0 +1,6 @@
+cv2
+pandas
+tkinter
+pyzbar
+Pillow
+pygame
