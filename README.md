@@ -35,7 +35,7 @@ pip install -r requirements.txt
 
 ## Instalação / Execução
 
-Para rodar o programa no Windows 10 ou 11, você pode utilizar a versão compilada (.exe) fornecida na pasta `win64`. Basta carregar as planilhas assim que o programa abrir.
+Para rodar o programa no Windows 10 ou 11, você pode utilizar a versão compilada (.exe) fornecida em `release`. Basta carregar as planilhas assim que o programa abrir.
 
 Se você preferir compilar o programa em Linux, a partir do código-fonte, você pode fazer isso utilizando o arquivo `main.py` fornecido na pasta `sources`. Lembre-se que a compilação adaptada para Windows está na pasta `app_win`, dentro de `sources`.
 
