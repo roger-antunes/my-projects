@@ -33,13 +33,13 @@ Você pode instalar as bibliotecas necessárias utilizando o arquivo `requiremen
 pip install -r requirements.txt
 ```
 
-## Instalação
+## Instalação / Execução
 
-Para rodar o programa no Windows 10 ou 11, você pode utilizar a versão compilada (.exe) fornecida na pasta `win64`. 
+Para rodar o programa no Windows 10 ou 11, você pode utilizar a versão compilada (.exe) fornecida na pasta `win64`. Basta carregar as planilhas assim que o programa abrir.
 
-Se você preferir compilar o programa a partir do código-fonte, você pode fazer isso utilizando o arquivo `main.py` fornecido na pasta `sources`. Lembre-se que a compilação adaptada para Windows está em `app-win`, dentro de `sources`.
+Se você preferir compilar o programa em Linux, a partir do código-fonte, você pode fazer isso utilizando o arquivo `main.py` fornecido na pasta `sources`. Lembre-se que a compilação adaptada para Windows está na pasta `app_win`, dentro de `sources`.
 
-## Uso
+## Uso / planilhas previamente preenchidas
 
 Para usar o programa, você precisará criar um arquivo Excel (.xlsx) com as questões e respostas. O arquivo deve ter as seguintes colunas:
 
@@ -48,16 +48,21 @@ Para usar o programa, você precisará criar um arquivo Excel (.xlsx) com as que
 * `A`, `B`, `C`, `D`: as alternativas de resposta
 * `Resposta`: a resposta correta
 
-Na pasta `sources` há um exemplo de como essa planilha deve ser.
+Existem exemplos de como essa planilha deve ser.
 
 Você também precisará criar um arquivo Excel (.xlsx) com os dados dos alunos. O arquivo deve ter as seguintes colunas:
 
 * `ID`: o ID do aluno
 * `Nome`: o nome do aluno
 
-Para gerar os QRcodes, você pode utilizar o script `gerar_qrcodes.py` fornecido na pasta `sources`. Para gerar um PDF com os QRcodes, você pode utilizar o script `gerar_pdf.py` fornecido na pasta `sources`. Um PDF já gerado com os QRcodes está disponível na pasta `sources`.
+Existem exemplos de como essa planilha deve ser.
 
-Na pasta `sources` há um exemplo de como essa planilha deve ser.
+## Geração dos QRcodes
+
+Para gerar os QRcodes, você pode utilizar o script `gerar_qrcodes.py` fornecido na pasta `sources`. Para gerar um PDF com os QRcodes, você pode utilizar o script `gerar_pdf.py` fornecido na pasta `sources`. 
+
+Um PDF já gerado com os QRcodes está disponível na pasta `sources`, assim como seus respectivos arquivos de imagem (.png).
+
 
 ## Contribuição
 
